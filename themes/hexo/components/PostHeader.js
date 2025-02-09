@@ -58,9 +58,9 @@ export default function PostHeader({ post, siteInfo }) {
                   </Link>
                 </>
               )}
-              // <div className="pl-1 mr-2">
-                // {locale.COMMON.LAST_EDITED_TIME}: {post.lastEditedDay}
-              // </div>
+              <!-- <div className="pl-1 mr-2">
+                 {locale.COMMON.LAST_EDITED_TIME}: {post.lastEditedDay}
+               </div> -->
             </div>
 
             {JSON.parse(siteConfig('ANALYTICS_BUSUANZI_ENABLE')) && <div className="busuanzi_container_page_pv font-light mr-2">
